@@ -1,0 +1,91 @@
+{
+  "brand": {
+    "name": "Tituzent",
+    "tagline": "Engineering Digital Excellence.",
+    "essence": "Futuristic precision × Human creativity",
+    "tone": ["Bold", "Visionary", "Refined", "Tech-Art fusion"]
+  },
+  "colors": {
+    "base": {
+      "1": "#090A10",
+      "2": "#0F1013"
+    },
+    "accent": {
+      "gradient": {
+        "start": "#3B44F6",
+        "middle": "#7B3FF6",
+        "end": "#1CD2FF"
+      }
+    },
+    "text": {
+      "primary": "#E6E9F3",
+      "muted": "#9AA0AF"
+    },
+    "success": "#1FFF9E"
+  },
+  "typography": {
+    "headings": {
+      "family": "Plus Jakarta Sans",
+      "weight": 600
+    },
+    "body": {
+      "family": "Inter, Satoshi",
+      "weight": 400
+    }
+  },
+  "spacing": {
+    "section": "6rem",
+    "container": "1280px",
+    "gap": {
+      "sm": "1rem",
+      "md": "2rem",
+      "lg": "4rem"
+    }
+  },
+  "motion": {
+    "duration": {
+      "fast": "150ms",
+      "normal": "300ms",
+      "slow": "500ms"
+    },
+    "easing": {
+      "default": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "smooth": "cubic-bezier(0.4, 0, 0.6, 1)",
+      "bounce": "cubic-bezier(0.68, -0.55, 0.265, 1.55)"
+    }
+  },
+  "effects": {
+    "glassmorphism": {
+      "background": "rgba(15, 16, 19, 0.7)",
+      "blur": "20px",
+      "border": "1px solid rgba(230, 233, 243, 0.1)"
+    },
+    "glow": {
+      "color": "rgba(59, 68, 246, 0.5)",
+      "spread": "20px"
+    }
+  },
+  "contact": {
+    "email": "tituzent@gmail.com",
+    "phone": "+91 9381624650",
+    "address": {
+      "line1": "Suripally",
+      "line2": "Nekkonda",
+      "city": "Warangal",
+      "state": "Telangana",
+      "country": "India",
+      "pincode": "506122",
+      "coordinates": {
+        "lat": 17.9784,
+        "lng": 79.5941
+      }
+    }
+  },
+  "social": {
+    "facebook": "https://facebook.com/tituzent",
+    "instagram": "https://instagram.com/tituzent",
+    "twitter": "https://twitter.com/tituzent",
+    "linkedin": "https://linkedin.com/company/tituzent"
+  }
+}
+
