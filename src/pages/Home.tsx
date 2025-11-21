@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Zap, Shield, TrendingUp, Globe, Smartphone, Database, Palette, Wrench } from 'lucide-react'
+import SEOHead from '../components/SEOHead'
 
 const TECH_STACK = [
   'React',
@@ -25,7 +26,6 @@ const TECH_STACK = [
   'Git',
   'Figma',
   'Vercel',
-  'Netlify',
 ] // Modern tech stack and tools
 
 
@@ -104,6 +104,7 @@ const Home = () => {
 
   return (
     <div className="overflow-hidden">
+      <SEOHead />
       {/* Hero Section */}
       <section className="relative section-padding min-h-[90vh] flex items-center">
         {/* Background Effects */}
@@ -121,8 +122,7 @@ const Home = () => {
               </span>
             </div>
             <h1 className="text-5xl md:text-7xl font-heading font-bold leading-tight">
-              Build, Launch & Scale{' '}
-              <span className="gradient-text">with Confidence</span>
+              Web Development, Mobile Apps & Enterprise Solutions<br /><span className="gradient-text">for Ambitious Teams</span>
             </h1>
             <p className="text-xl md:text-2xl text-text-muted max-w-2xl mx-auto">
               Tituzent helps ambitious teams create world-class digital products that drive real business results.
@@ -248,11 +248,11 @@ const Home = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="aspect-video overflow-hidden rounded-lg mb-4">
-                  <img
-                    src={study.image}
-                    alt={study.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
+                   <img
+                     src={study.image}
+                     alt={`${study.title} - ${study.category} project showcasing ${study.metrics}`}
+                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                   />
                 </div>
                 <div className="space-y-2">
                   <p className="text-sm text-accent-blue font-medium">

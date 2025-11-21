@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Briefcase, MapPin, Clock, ChevronDown, Heart, Coffee, Zap } from 'lucide-react'
+import SEOHead from '../components/SEOHead'
 
 const Careers = () => {
   const [openRole, setOpenRole] = useState<number | null>(0)
@@ -84,8 +85,9 @@ const Careers = () => {
 
   return (
     <div className="overflow-hidden">
+      <SEOHead />
       {/* Hero Section */}
-      <section className="section-padding hero">
+      <section className="section-padding">
         <div className="container-custom text-center space-y-6">
           <h1 className="text-5xl md:text-6xl font-heading font-bold">
             Join Tituzent. Build Products{' '}
@@ -202,7 +204,7 @@ const Careers = () => {
                        </ul>
                      </div>
                      <a
-                       href="https://docs.google.com/forms/d/e/1FAIpQLSfptDxHV2dSJXO6sunfP7AJycBa2RWINJrsIheNcFP-hEyM0w/viewform?usp=header"
+                       href="https://docs.google.com/forms/d/e/1FAIpQLSeQGNkwyZ9ULrucXbt2oqbBYfF8fA0hZwWn_zEfnAv3appSMg/viewform?usp=publish-editor"
                        target="_blank"
                        rel="noopener noreferrer"
                        className="inline-block px-6 py-3 mt-4 rounded-lg bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold hover:from-purple-600 hover:to-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl"

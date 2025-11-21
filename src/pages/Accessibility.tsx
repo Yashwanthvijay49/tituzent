@@ -1,6 +1,9 @@
+import SEOHead from '../components/SEOHead'
+
 const Accessibility = () => {
   return (
     <div className="overflow-hidden">
+      <SEOHead />
       <section className="section-padding bg-gradient-to-b from-base-1 to-base-2">
         <div className="container-custom max-w-4xl">
           <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6 animate-fade-in">
@@ -93,7 +96,7 @@ const Accessibility = () => {
               accessibility barriers or have suggestions for improvement, please contact us:
             </p>
             <div className="text-text-muted space-y-2">
-              <p>Email: tituzent@gmail.com</p>
+              <p>Email: info@tituzent.com</p>
               <p>Phone: +91 9381624650</p>
               <p>Address: Suripally, Nekkonda, Warangal, Telangana 506122, India</p>
             </div>

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { TrendingUp, Users, Clock } from 'lucide-react'
+import SEOHead from '../components/SEOHead'
 
 const CaseStudies = () => {
   const [activeFilter, setActiveFilter] = useState('All')
@@ -105,6 +106,7 @@ const CaseStudies = () => {
 
   return (
     <div className="overflow-hidden">
+      <SEOHead />
       {/* Hero Section */}
       <section className="section-padding bg-gradient-to-b from-base-1 to-base-2">
         <div className="container-custom text-center space-y-6">
@@ -152,7 +154,7 @@ const CaseStudies = () => {
                 <div className="aspect-video overflow-hidden rounded-lg mb-4">
                   <img
                     src={study.image}
-                    alt={study.title}
+                    alt={`${study.title} case study - ${study.client} ${study.category} development`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>

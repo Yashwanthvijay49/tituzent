@@ -1,4 +1,5 @@
 import { Globe, Smartphone, Database, ShoppingCart, Palette, Wrench } from 'lucide-react'
+import SEOHead from '../components/SEOHead'
 
 const Services = () => {
   const services = [
@@ -78,6 +79,7 @@ const Services = () => {
 
   return (
     <div className="overflow-hidden">
+      <SEOHead />
       {/* Hero Section */}
       <section className="relative section-padding bg-gradient-to-b from-base-1 to-base-2">
         <div className="absolute inset-0 overflow-hidden">
@@ -86,8 +88,7 @@ const Services = () => {
 
         <div className="container-custom relative z-10 text-center space-y-6">
           <h1 className="text-5xl md:text-6xl font-heading font-bold">
-            Solutions That Scale{' '}
-            <span className="gradient-text">Your Vision</span>
+            Web Development, Mobile Apps & CRM Solutions<span className="gradient-text"> That Scale Your Business</span>
           </h1>
           <p className="text-xl text-text-muted max-w-3xl mx-auto">
             From concept to deployment, we deliver end-to-end digital solutions that drive measurable business growth.

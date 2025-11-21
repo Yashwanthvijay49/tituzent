@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Facebook, Instagram, Twitter, Linkedin, Mail, Phone, MapPin, ArrowUp } from 'lucide-react'
-import logo from '../assets/images/logo-removebg-preview.png'
+import logo from '../assets/images/logo.png'
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -139,8 +139,8 @@ const Footer = () => {
             <Mail className="w-5 h-5 text-accent-blue mt-1" />
             <div>
               <p className="text-sm text-text-muted">Email</p>
-              <a href="mailto:tituzent@gmail.com" className="text-text-primary hover:text-accent-blue transition-colors duration-300">
-                tituzent@gmail.com
+              <a href="mailto:info@tituzent.com" className="text-text-primary hover:text-accent-blue transition-colors duration-300">
+                info@tituzent.com
               </a>
             </div>
           </div>

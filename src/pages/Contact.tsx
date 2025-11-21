@@ -1,10 +1,12 @@
 import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react'
+import SEOHead from '../components/SEOHead'
 
 const Contact = () => {
   return (
     <div className="overflow-hidden">
+      <SEOHead />
       {/* Hero Section */}
-      <section className="section-padding bg-linear-to-b from-base-1 to-base-2">
+      <section className="section-padding bg-gradient-to-b from-base-1 to-base-2">
         <div className="container-custom text-center space-y-6">
           <h1 className="text-5xl md:text-6xl font-heading font-bold">
             Let's Build Something{' '}
@@ -135,10 +137,10 @@ const Contact = () => {
                       Email
                     </h3>
                     <a
-                      href="mailto:tituzent@gmail.com"
+                      href="mailto:info@tituzent.com"
                       className="text-text-muted hover:text-accent-blue transition-colors duration-300"
                     >
-                      tituzent@gmail.com
+                      info@tituzent.com
                     </a>
                   </div>
                 </div>
@@ -216,7 +218,7 @@ const Contact = () => {
       {/* CTA Section */}
       <section className="section-padding bg-base-2/50">
         <div className="container-custom">
-          <div className="card-glow text-center space-y-6 p-12 bg-linear-to-br from-accent-blue/10 to-accent-purple/10">
+          <div className="card-glow text-center space-y-6 p-12 bg-gradient-to-br from-accent-blue/10 to-accent-purple/10">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-text-primary">
               Prefer to schedule a call?
             </h2>
@@ -224,7 +226,7 @@ const Contact = () => {
               Book a free 30-minute consultation to discuss your project.
             </p>
             <a
-              href="mailto:tituzent@gmail.com?subject=Schedule a Call"
+              href="mailto:info@tituzent.com?subject=Schedule a Call"
               className="btn-primary inline-block"
             >
               Schedule a Call

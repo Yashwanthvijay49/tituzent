@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import SEOHead from '../components/SEOHead'
 
 const Cookies = () => {
   const [essentialEnabled] = useState(true)
@@ -14,6 +15,7 @@ const Cookies = () => {
 
   return (
     <div className="overflow-hidden">
+      <SEOHead />
       <section className="section-padding bg-gradient-to-b from-base-1 to-base-2">
         <div className="container-custom max-w-4xl">
           <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6 animate-fade-in">
@@ -131,7 +133,7 @@ const Cookies = () => {
               If you have questions about our use of cookies, please contact us at:
             </p>
             <div className="text-text-muted">
-              <p>Email: tituzent@gmail.com</p>
+              <p>Email: info@tituzent.com</p>
               <p>Phone: +91 9381624650</p>
             </div>
           </div>

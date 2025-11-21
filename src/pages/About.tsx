@@ -1,4 +1,5 @@
 import { Target, Award, Users, TrendingUp } from 'lucide-react'
+import SEOHead from '../components/SEOHead'
 
 const About = () => {
   const stats = [
@@ -43,6 +44,7 @@ const About = () => {
 
   return (
     <div className="overflow-hidden">
+      <SEOHead />
       {/* Hero Section */}
       <section className="section-padding bg-gradient-to-b from-base-1 to-base-2">
         <div className="container-custom">
@@ -70,7 +72,7 @@ const About = () => {
               <div className="aspect-square rounded-2xl overflow-hidden glass">
                 <img
                   src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=800&fit=crop"
-                  alt="Team collaboration"
+                  alt="Tituzent team collaboration - web developers and software engineers working on digital solutions"
                   className="w-full h-full object-cover opacity-70"
                 />
               </div>

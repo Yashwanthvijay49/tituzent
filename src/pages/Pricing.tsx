@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Check, ChevronDown } from 'lucide-react'
+import SEOHead from '../components/SEOHead'
 
 const Pricing = () => {
   const [isYearly, setIsYearly] = useState(false)
@@ -93,8 +94,9 @@ const Pricing = () => {
 
   return (
     <div className="overflow-hidden">
+      <SEOHead />
       {/* Hero Section */}
-      <section className="section-padding bg-linear-to-b from-base-1 to-base-2">
+      <section className="section-padding bg-gradient-to-b from-base-1 to-base-2">
         <div className="container-custom text-center space-y-6">
           <h1 className="text-5xl md:text-6xl font-heading font-bold">
             Simple, <span className="gradient-text">Transparent Pricing</span>
@@ -255,7 +257,7 @@ const Pricing = () => {
       {/* CTA Section */}
       <section className="section-padding">
         <div className="container-custom">
-          <div className="card-glow text-center space-y-6 p-12 bg-linear-to-br from-accent-blue/10 to-accent-purple/10">
+          <div className="card-glow text-center space-y-6 p-12 bg-gradient-to-br from-accent-blue/10 to-accent-purple/10">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-text-primary">
               Still have questions?
             </h2>

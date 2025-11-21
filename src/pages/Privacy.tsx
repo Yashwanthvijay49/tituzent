@@ -1,6 +1,9 @@
+import SEOHead from '../components/SEOHead'
+
 const Privacy = () => {
   return (
     <div className="overflow-hidden">
+      <SEOHead />
       <section className="section-padding bg-gradient-to-b from-base-1 to-base-2">
         <div className="container-custom max-w-4xl">
           <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6 animate-fade-in">
@@ -71,7 +74,7 @@ const Privacy = () => {
             <p className="text-text-muted leading-relaxed">
               You have the right to access, update, or delete your personal information. 
               You may also object to or restrict certain processing of your data. 
-              To exercise these rights, please contact us at tituzent@gmail.com.
+              To exercise these rights, please contact us at info@tituzent.com.
             </p>
           </div>
 
@@ -103,7 +106,7 @@ const Privacy = () => {
               If you have any questions about this Privacy Policy, please contact us at:
             </p>
             <div className="text-text-muted">
-              <p>Email: tituzent@gmail.com</p>
+              <p>Email: info@tituzent.com</p>
               <p>Phone: +91 9381624650</p>
               <p>Address: Suripally, Nekkonda, Warangal, Telangana 506122, India</p>
             </div>
